@@ -1,0 +1,113 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+header{
+     background:rgb(255,255,255);
+     width: 100%;
+     height: 50px;
+     color: #fff;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 100;
+}
+.container{
+     width: 98%;
+     margin: auto;
+}
+.container img{
+     float: left;
+     width: 18vh;
+     height: 7vh;
+}
+/* Menu */
+.menu{
+     position: absolute;
+     top: 50px;
+     left: -30px;
+     width: 100%;
+     height: 100vh;
+}
+.menu a{
+     float: right;
+     color: rgb(128,128,128);
+     height: 50px;
+     text-decoration: none;
+     margin-left: 10px;
+     margin-top: -40px;
+}
+.menu a:hover{
+     color: rgba(62,176,247,0.3);
+}
+/* section*/
+.s1{
+     height:122vh;
+     background:rgb(128,128,128);
+     color: rgb(220,220,220);
+     padding: 10px; 
+}
+.s1 h1{
+     margin-top: 50px;
+}
+.s1 p{
+     margin-top: 15px;
+}
+form{
+     width: 350px;
+     margin: auto;
+     background: rgb(154,154,154);
+     padding: 10px 20px;
+     box-sizing: border-box;
+     border-radius: 7px;
+}
+.col-lg-6{
+     margin-top: 100px;
+     margin-bottom: -70px;
+}
+.col-lg-6 h2{
+     color: rgb(220,220,220);
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 20px;
+
+}
+.col-lg-6 input, textarea{
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 7px;
+     box-sizing: border-box;
+     font-size: 17px;
+}
+.col-lg-6 textarea{
+     min-height: 100px;
+     max-height: 200px;
+     max-width: 100%;
+}
+.button{
+     background:rgb(62,176,247);
+     color: rgb(220,220,220);
+}
+.button:hover {
+     cursor: pointer;
+}
+/* footer*/
+.s3{
+
+}
+.s3 p{
+     text-align: center;
+     width: 100%;
+     height: 50px;
+}
+
+/* responsive*/
+@media (max-width: 480px){
+     form{
+          width: 100%;
+     }
+     .s1 img{
+          width: 100%;
+     }
+}
